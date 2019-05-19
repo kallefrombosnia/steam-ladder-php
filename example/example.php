@@ -12,7 +12,7 @@ $client->getProfile('76561198190625269');
 
 // function refreshProfile updates profile info and returns new info about profile
 // param.  steamid64 - required
-$client->refreshProfile('76561198190625269');
+$client->updateProfile('76561198190625269');
 
 // function getLadder returns ladder info, also you can filter by using country codes or regions
 // param.  type - required
